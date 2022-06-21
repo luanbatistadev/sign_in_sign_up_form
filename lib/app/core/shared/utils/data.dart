@@ -6,9 +6,9 @@ const jsonResponse = {
   "status": 200,
 };
 const jsonResponseError = {
-  "message": 'U',
+  "message": 'Credentials are wrong',
   "data": {
-
+    
   },
   "status": 401,
 };

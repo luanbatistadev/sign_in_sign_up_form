@@ -6,7 +6,7 @@ import 'package:sign_in_sign_up_form/app/core/auth/domain/errors/errors.dart';
 import 'package:sign_in_sign_up_form/app/core/auth/infra/model/response_model.dart';
 import 'package:sign_in_sign_up_form/app/core/shared/utils/data.dart';
 import 'package:sign_in_sign_up_form/app/modules/sign_in/infra/datasource/sign_in_datasource.dart';
-import 'package:sign_in_sign_up_form/app/modules/sign_in/infra/repositories/sign_in_reposytory_impl.dart';
+import 'package:sign_in_sign_up_form/app/modules/sign_in/infra/repositories/sign_in_repository_impl.dart';
 
 class SignInDatasourceMock extends Mock implements SignInDatasource {}
 

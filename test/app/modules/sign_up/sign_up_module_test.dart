@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:flutter_modular/flutter_modular.dart' as mod;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:modular_test/modular_test.dart';
-import 'package:sign_in_sign_up_form/app/core/auth/domain/entities/auxiliars/user_aux.dart';
+import 'package:sign_in_sign_up_form/app/core/auth/domain/entities/auxiliares/user_aux.dart';
 import 'package:sign_in_sign_up_form/app/core/auth/domain/entities/response.dart';
 import 'package:sign_in_sign_up_form/app/modules/sign_up/domain/usecase/sign_up.dart';
 import 'package:sign_in_sign_up_form/app/modules/sign_up/presenter/sign_up_module.dart';

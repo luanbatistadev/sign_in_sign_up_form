@@ -19,10 +19,8 @@ class SignInRepositoryImpl implements SignInRepository {
       final result = await signInDatasource.signIn(userName, password);
 
       return Right(result!);
-    } on DataSourceError catch (e) {
+    } on IError catch (e) {
       return Left(e);
-    } on InvalidCredentials catch (e) {
-      return Left(e);
-    }
+    } 
   }
 }

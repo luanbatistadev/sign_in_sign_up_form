@@ -1,12 +1,5 @@
 abstract class IError implements Exception {}
 
-class InvalidText implements IError {
-  @override
-  String toString() {
-    return 'InvalidCredentials';
-  }
-}
-
 class DataSourceError implements IError {
   @override
   String toString() {

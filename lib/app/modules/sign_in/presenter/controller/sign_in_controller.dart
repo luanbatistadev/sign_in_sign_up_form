@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:sign_in_sign_up_form/app/core/auth/domain/entities/auxiliars/user_aux.dart';
+import 'package:sign_in_sign_up_form/app/core/auth/domain/entities/auxiliares/user_aux.dart';
 import 'package:sign_in_sign_up_form/app/core/shared/helpers/value_object/email.dart';
 import 'package:sign_in_sign_up_form/app/core/shared/helpers/value_object/password.dart';
 import 'package:sign_in_sign_up_form/app/core/shared/utils/custom_snack_bar.dart';
 import 'package:sign_in_sign_up_form/app/modules/sign_in/presenter/sign_in_bloc.dart';
 import 'package:sign_in_sign_up_form/app/modules/sign_in/presenter/states/sign_in_states.dart';
 
-
-class SignInController  {
+class SignInController {
   final emailInstance = Email();
   String get email => emailInstance.value;
   set email(String newValue) => emailInstance.value = newValue;

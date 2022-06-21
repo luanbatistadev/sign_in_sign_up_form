@@ -17,11 +17,6 @@ class SignInImpl implements SignIn {
     String? userName,
     String? password,
   ) async {
-    if (userName == null || password == null) {
-      return Left(InvalidText());
-    } else if (userName.isEmpty || password.isEmpty) {
-      return Left(InvalidText());
-    }
     return signInRepository.signIn(userName, password)!;
   }
 }
